@@ -4,14 +4,13 @@ Using this plugin WP/WooCommerce website owners in Kuwait and many other countri
 
 # Installation
 ------------
- 1.With your FTP program, upload the plugin folder after you extract it to the wp-content/plugins folder in WordPress directory.
- 2.Go to plugins screen and find the newly uploaded plugin in the list, click on Activate to activate the plugin.
- 3.Use the below API credentials (Test Credentails):
-	a.Merchant ID: 13014
-	b.Username: test
-	c.Password: tap1234
-	d.API Key: 1tap7
- 4.Once you're done with testing, please contact us to provide you with you live API credentials.
+ 1. With your FTP program, upload the plugin folder after you extract it to the wp-content/plugins folder in WordPress directory.
+ 2. Go to plugins screen and find the newly uploaded plugin in the list, click on Activate to activate the plugin.
+ 3. Use the below API credentials (Test Credentails):
+	a. Merchant ID: 13014
+	b. Username: test
+	d. API Key: 1tap7
+ 4. Once you're done with testing, please contact us to provide you with you live API credentials.
 
 
 

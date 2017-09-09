@@ -44,7 +44,6 @@ function woocommerce_tap_init(){
 
 			$this->merchant_id      = $this->settings['merchant_id'];
 			$this->username         = $this->settings['username'];
-			$this->password         = $this->settings['password'];
 			$this->apikey 			= $this->settings['apikey'];	
 			$this->description 		= $this->settings['description'];	
 			
@@ -113,15 +112,6 @@ function woocommerce_tap_init(){
 					          'default'     => '',
 					          'desc_tip'    =>true,
                     'required'    =>true),
-                'password' => array(
-                    'title'       => __('API Password', 'kdc'),
-                    'type'        => 'password',
-					          'value'       => '',
-                    'description' => __( 'Get your API credentials from Tap.', 'woocommerce' ),
-          					'default'     => '',
-          					'desc_tip'    => true,
-                    'required'    => true
-                   ),
       			'testmode' => array(
 					'title' 		=> __('TEST Mode', 'kdc'),
 					'type' 			=> 'checkbox',
@@ -192,7 +182,6 @@ function woocommerce_tap_init(){
 			$tap_args = array(
 				'MEID' 			=> $this->merchant_id,
 				'UName'			=> $this->username,
-				'PWD'			=> $this->password,
 				'ItemName1'		=> 'Order ID : '.$txnid,
 				'ItemQty1'		=> '1',
 				'OrdID' 		=> $order_id,
